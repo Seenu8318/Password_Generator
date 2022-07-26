@@ -66,10 +66,10 @@ function makePassword(upper,lower,number,symbol,length)
         });
     }
     const editPassword = password.slice(0,length);
-   return editPassword;
+   return editPassword; 
 }
 
-resetEl.addEventListener("click", ()=>{
+resetEl.addEventListener("click", ()=>{ 
     resultEl.innerText = "";
 });
 
